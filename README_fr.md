@@ -5,15 +5,16 @@ It shall NOT be edited by hand.
 
 # Digiwords pour YunoHost
 
-[![Niveau d'intégration](https://dash.yunohost.org/integration/digiwords.svg)](https://dash.yunohost.org/appci/app/digiwords) ![Statut du fonctionnement](https://ci-apps.yunohost.org/ci/badges/digiwords.status.svg) ![Statut de maintenance](https://ci-apps.yunohost.org/ci/badges/digiwords.maintain.svg)  
+[![Niveau d’intégration](https://dash.yunohost.org/integration/digiwords.svg)](https://dash.yunohost.org/appci/app/digiwords) ![Statut du fonctionnement](https://ci-apps.yunohost.org/ci/badges/digiwords.status.svg) ![Statut de maintenance](https://ci-apps.yunohost.org/ci/badges/digiwords.maintain.svg)
+
 [![Installer Digiwords avec YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=digiwords)
 
 *[Read this readme in english.](./README.md)*
 
-> *Ce package vous permet d'installer Digiwords rapidement et simplement sur un serveur YunoHost.
-Si vous n'avez pas YunoHost, regardez [ici](https://yunohost.org/#/install) pour savoir comment l'installer et en profiter.*
+> *Ce package vous permet d’installer Digiwords rapidement et simplement sur un serveur YunoHost.
+Si vous n’avez pas YunoHost, regardez [ici](https://yunohost.org/#/install) pour savoir comment l’installer et en profiter.*
 
-## Vue d'ensemble
+## Vue d’ensemble
 
 Digiwords permet de créer des nuages de mots interactifs.
 
@@ -22,10 +23,10 @@ Digiwords permet de créer des nuages de mots interactifs.
 **Démo :** https://ladigitale.dev/digiwords/#/
 ## Documentations et ressources
 
-* Site officiel de l'app : <https://ladigitale.dev/>
+* Site officiel de l’app : <https://ladigitale.dev/>
 * Documentation officielle utilisateur : <https://ladigitale.dev/blog/digiwords-pour-creer-des-nuages-de-mots>
-* Documentation officielle de l'admin : <https://codeberg.org/ladigitale/digiwords/src/branch/master/README.md>
-* Dépôt de code officiel de l'app : <https://codeberg.org/ladigitale/digiwords>
+* Documentation officielle de l’admin : <https://codeberg.org/ladigitale/digiwords/src/branch/master/README.md>
+* Dépôt de code officiel de l’app : <https://codeberg.org/ladigitale/digiwords>
 * Documentation YunoHost pour cette app : <https://yunohost.org/app_digiwords>
 * Signaler un bug : <https://github.com/YunoHost-Apps/digiwords_ynh/issues>
 
@@ -41,4 +42,4 @@ ou
 sudo yunohost app upgrade digiwords -u https://github.com/YunoHost-Apps/digiwords_ynh/tree/testing --debug
 ```
 
-**Plus d'infos sur le packaging d'applications :** <https://yunohost.org/packaging_apps>
+**Plus d’infos sur le packaging d’applications :** <https://yunohost.org/packaging_apps>
