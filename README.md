@@ -5,7 +5,8 @@ It shall NOT be edited by hand.
 
 # Digiwords for YunoHost
 
-[![Integration level](https://dash.yunohost.org/integration/digiwords.svg)](https://dash.yunohost.org/appci/app/digiwords) ![Working status](https://ci-apps.yunohost.org/ci/badges/digiwords.status.svg) ![Maintenance status](https://ci-apps.yunohost.org/ci/badges/digiwords.maintain.svg)  
+[![Integration level](https://dash.yunohost.org/integration/digiwords.svg)](https://dash.yunohost.org/appci/app/digiwords) ![Working status](https://ci-apps.yunohost.org/ci/badges/digiwords.status.svg) ![Maintenance status](https://ci-apps.yunohost.org/ci/badges/digiwords.maintain.svg)
+
 [![Install Digiwords with YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=digiwords)
 
 *[Lire ce readme en français.](./README_fr.md)*
@@ -26,7 +27,7 @@ With Digiwords, you can create interactive wordclouds.
 * Official user documentation: <https://ladigitale.dev/blog/digiwords-pour-creer-des-nuages-de-mots>
 * Official admin documentation: <https://codeberg.org/ladigitale/digiwords/src/branch/master/README.md>
 * Upstream app code repository: <https://codeberg.org/ladigitale/digiwords>
-* YunoHost documentation for this app: <https://yunohost.org/app_digiwords>
+* YunoHost Store: <https://apps.yunohost.org/app/digiwords>
 * Report a bug: <https://github.com/YunoHost-Apps/digiwords_ynh/issues>
 
 ## Developer info
