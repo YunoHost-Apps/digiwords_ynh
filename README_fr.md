@@ -16,7 +16,7 @@ Si vous n’avez pas YunoHost, regardez [ici](https://yunohost.org/#/install) po
 
 ## Vue d’ensemble
 
-Digiwords permet de créer des nuages de mots interactifs.
+Create interactive wordclouds
 
 **Version incluse :** 0.3.5~ynh1
 
