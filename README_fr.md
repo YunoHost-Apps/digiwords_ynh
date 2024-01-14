@@ -16,7 +16,7 @@ Si vous n’avez pas YunoHost, regardez [ici](https://yunohost.org/#/install) po
 
 ## Vue d’ensemble
 
-Create interactive wordclouds
+Digiwords est une application en ligne simple pour créer des nuages de mots.
 
 **Version incluse :** 0.5.5~ynh1
 
