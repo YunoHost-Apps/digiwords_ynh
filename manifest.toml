@@ -1,0 +1,59 @@
+packaging_format = 2
+
+id = "digiwords"
+name = "Digiwords"
+description.en = "Create interactive wordclouds"
+description.fr = "Créer des nuages de mots interactifs"
+
+version = "0.5.5~ynh1"
+
+maintainers = ["Pierre-Amiel Giraud"]
+
+[upstream]
+license = "GPL-3.0-only"
+website = "https://ladigitale.dev/"
+demo = "https://ladigitale.dev/digiwords/#/"
+admindoc = "https://codeberg.org/ladigitale/digiwords/src/branch/master/README.md"
+userdoc = "https://ladigitale.dev/blog/digiwords-pour-creer-des-nuages-de-mots"
+code = "https://codeberg.org/ladigitale/digiwords"
+
+
+[integration]
+yunohost = ">= 11.2"
+architectures = "all"
+multi_instance = true
+
+ldap = false
+
+sso = false
+
+disk = "50M"
+ram.build = "50M"
+ram.runtime = "50M"
+
+[install]
+    [install.domain]
+    type = "domain"
+
+    [install.path]
+    type = "path"
+    default = "/digiwords"
+
+    [install.init_main_permission]
+    type = "group"
+    default = "visitors"
+
+[resources]
+        [resources.sources.main]
+        url = "https://codeberg.org/ladigitale/digiwords/releases/download/0.5.5/digiwords-v0.5.5.zip"
+        sha256 = "ef118f164373bc841dc29713eda929726a2aee265cefaa2d9ee336aa708bbd6f"
+
+    [resources.system_user]
+
+    [resources.install_dir]
+
+    [resources.permissions]
+    main.url = "/"
+
+    [resources.apt]
+    packages = "php8.2-sqlite3"
