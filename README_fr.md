@@ -18,7 +18,7 @@ Si vous n’avez pas YunoHost, regardez [ici](https://yunohost.org/#/install) po
 
 Create interactive wordclouds
 
-**Version incluse :** 0.3.5~ynh1
+**Version incluse :** 0.5.5~ynh1
 
 **Démo :** https://ladigitale.dev/digiwords/#/
 ## Documentations et ressources
