@@ -14,7 +14,7 @@ source /usr/share/yunohost/helpers
 #=================================================
 ynh_script_progression --message="Upgrading source files..." --weight=1
 
-ynh_setup_source --dest_dir="$install_dir" --keep="inc/digiwords.db"
+ynh_setup_source --dest_dir="$install_dir" --full_replace=1 --keep="inc/digiwords.db"
 
 chmod -R o-rwx "$install_dir"
 chown -R "$app:www-data" "$install_dir"
