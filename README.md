@@ -5,7 +5,7 @@ It shall NOT be edited by hand.
 
 # Digiwords for YunoHost
 
-[![Integration level](https://dash.yunohost.org/integration/digiwords.svg)](https://dash.yunohost.org/appci/app/digiwords) ![Working status](https://ci-apps.yunohost.org/ci/badges/digiwords.status.svg) ![Maintenance status](https://ci-apps.yunohost.org/ci/badges/digiwords.maintain.svg)
+[![Integration level](https://dash.yunohost.org/integration/digiwords.svg)](https://ci-apps.yunohost.org/ci/apps/digiwords/) ![Working status](https://ci-apps.yunohost.org/ci/badges/digiwords.status.svg) ![Maintenance status](https://ci-apps.yunohost.org/ci/badges/digiwords.maintain.svg)
 
 [![Install Digiwords with YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=digiwords)
 

@@ -5,7 +5,7 @@ NON debe editarse manualmente.
 
 # Digiwords para YunoHost
 
-[![Nivel de integración](https://dash.yunohost.org/integration/digiwords.svg)](https://dash.yunohost.org/appci/app/digiwords) ![Estado de funcionamento](https://ci-apps.yunohost.org/ci/badges/digiwords.status.svg) ![Estado de mantemento](https://ci-apps.yunohost.org/ci/badges/digiwords.maintain.svg)
+[![Nivel de integración](https://dash.yunohost.org/integration/digiwords.svg)](https://ci-apps.yunohost.org/ci/apps/digiwords/) ![Estado de funcionamento](https://ci-apps.yunohost.org/ci/badges/digiwords.status.svg) ![Estado de mantemento](https://ci-apps.yunohost.org/ci/badges/digiwords.maintain.svg)
 
 [![Instalar Digiwords con YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=digiwords)
 
