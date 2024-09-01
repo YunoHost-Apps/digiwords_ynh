@@ -18,7 +18,7 @@ NON debe editarse manualmente.
 
 Create interactive wordclouds
 
-**Versión proporcionada:** 0.6.0~ynh1
+**Versión proporcionada:** 0.6.0~ynh2
 
 **Demo:** <https://ladigitale.dev/digiwords/#/>
 ## Documentación e recursos
