@@ -18,7 +18,7 @@ EZ editatu eskuz.
 
 Create interactive wordclouds
 
-**Paketatutako bertsioa:** 0.6.0~ynh2
+**Paketatutako bertsioa:** 0.6.1~ynh1
 
 **Demoa:** <https://ladigitale.dev/digiwords/#/>
 ## Dokumentazioa eta baliabideak
