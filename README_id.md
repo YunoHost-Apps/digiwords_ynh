@@ -5,7 +5,9 @@ Ini TIDAK boleh diedit dengan tangan.
 
 # Digiwords untuk YunoHost
 
-[![Tingkat integrasi](https://dash.yunohost.org/integration/digiwords.svg)](https://ci-apps.yunohost.org/ci/apps/digiwords/) ![Status kerja](https://ci-apps.yunohost.org/ci/badges/digiwords.status.svg) ![Status pemeliharaan](https://ci-apps.yunohost.org/ci/badges/digiwords.maintain.svg)
+[![Tingkat integrasi](https://apps.yunohost.org/badge/integration/digiwords)](https://ci-apps.yunohost.org/ci/apps/digiwords/)
+![Status kerja](https://apps.yunohost.org/badge/state/digiwords)
+![Status pemeliharaan](https://apps.yunohost.org/badge/maintained/digiwords)
 
 [![Pasang Digiwords dengan YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=digiwords)
 
@@ -18,7 +20,7 @@ Ini TIDAK boleh diedit dengan tangan.
 
 Create interactive wordclouds
 
-**Versi terkirim:** 0.6.1~ynh1
+**Versi terkirim:** 0.6.2~ynh1
 
 **Demo:** <https://ladigitale.dev/digiwords/#/>
 ## Dokumentasi dan sumber daya

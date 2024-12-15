@@ -5,7 +5,9 @@ NON debe editarse manualmente.
 
 # Digiwords para YunoHost
 
-[![Nivel de integración](https://dash.yunohost.org/integration/digiwords.svg)](https://ci-apps.yunohost.org/ci/apps/digiwords/) ![Estado de funcionamento](https://ci-apps.yunohost.org/ci/badges/digiwords.status.svg) ![Estado de mantemento](https://ci-apps.yunohost.org/ci/badges/digiwords.maintain.svg)
+[![Nivel de integración](https://apps.yunohost.org/badge/integration/digiwords)](https://ci-apps.yunohost.org/ci/apps/digiwords/)
+![Estado de funcionamento](https://apps.yunohost.org/badge/state/digiwords)
+![Estado de mantemento](https://apps.yunohost.org/badge/maintained/digiwords)
 
 [![Instalar Digiwords con YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=digiwords)
 
@@ -18,7 +20,7 @@ NON debe editarse manualmente.
 
 Create interactive wordclouds
 
-**Versión proporcionada:** 0.6.1~ynh1
+**Versión proporcionada:** 0.6.2~ynh1
 
 **Demo:** <https://ladigitale.dev/digiwords/#/>
 ## Documentación e recursos

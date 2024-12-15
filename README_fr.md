@@ -5,7 +5,9 @@ Il NE doit PAS être modifié à la main.
 
 # Digiwords pour YunoHost
 
-[![Niveau d’intégration](https://dash.yunohost.org/integration/digiwords.svg)](https://ci-apps.yunohost.org/ci/apps/digiwords/) ![Statut du fonctionnement](https://ci-apps.yunohost.org/ci/badges/digiwords.status.svg) ![Statut de maintenance](https://ci-apps.yunohost.org/ci/badges/digiwords.maintain.svg)
+[![Niveau d’intégration](https://apps.yunohost.org/badge/integration/digiwords)](https://ci-apps.yunohost.org/ci/apps/digiwords/)
+![Statut du fonctionnement](https://apps.yunohost.org/badge/state/digiwords)
+![Statut de maintenance](https://apps.yunohost.org/badge/maintained/digiwords)
 
 [![Installer Digiwords avec YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=digiwords)
 
@@ -18,7 +20,7 @@ Il NE doit PAS être modifié à la main.
 
 Digiwords est une application en ligne simple pour créer des nuages de mots.
 
-**Version incluse :** 0.6.1~ynh1
+**Version incluse :** 0.6.2~ynh1
 
 **Démo :** <https://ladigitale.dev/digiwords/#/>
 ## Documentations et ressources

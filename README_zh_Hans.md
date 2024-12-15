@@ -5,7 +5,9 @@
 
 # YunoHost 上的 Digiwords
 
-[![集成程度](https://dash.yunohost.org/integration/digiwords.svg)](https://ci-apps.yunohost.org/ci/apps/digiwords/) ![工作状态](https://ci-apps.yunohost.org/ci/badges/digiwords.status.svg) ![维护状态](https://ci-apps.yunohost.org/ci/badges/digiwords.maintain.svg)
+[![集成程度](https://apps.yunohost.org/badge/integration/digiwords)](https://ci-apps.yunohost.org/ci/apps/digiwords/)
+![工作状态](https://apps.yunohost.org/badge/state/digiwords)
+![维护状态](https://apps.yunohost.org/badge/maintained/digiwords)
 
 [![使用 YunoHost 安装 Digiwords](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=digiwords)
 
@@ -18,7 +20,7 @@
 
 Create interactive wordclouds
 
-**分发版本：** 0.6.1~ynh1
+**分发版本：** 0.6.2~ynh1
 
 **演示：** <https://ladigitale.dev/digiwords/#/>
 ## 文档与资源
