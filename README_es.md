@@ -20,7 +20,7 @@ No se debe editar a mano.
 
 Create interactive wordclouds
 
-**Versión actual:** 0.6.2~ynh1
+**Versión actual:** 0.6.3~ynh1
 
 **Demo:** <https://ladigitale.dev/digiwords/#/>
 ## Documentaciones y recursos
