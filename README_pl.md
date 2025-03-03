@@ -20,9 +20,15 @@ Nie powinno być ono edytowane ręcznie.
 
 Create interactive wordclouds
 
+
 **Dostarczona wersja:** 0.6.3~ynh1
 
 **Demo:** <https://ladigitale.dev/digiwords/#/>
+
+## Zrzuty ekranu
+
+![Zrzut ekranu z Digiwords](./doc/screenshots/screenshot.jpg)
+
 ## Dokumentacja i zasoby
 
 - Oficjalna strona aplikacji: <https://ladigitale.dev/>

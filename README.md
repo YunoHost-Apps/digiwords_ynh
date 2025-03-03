@@ -20,9 +20,15 @@ It shall NOT be edited by hand.
 
 Create interactive wordclouds
 
+
 **Shipped version:** 0.6.3~ynh1
 
 **Demo:** <https://ladigitale.dev/digiwords/#/>
+
+## Screenshots
+
+![Screenshot of Digiwords](./doc/screenshots/screenshot.jpg)
+
 ## Documentation and resources
 
 - Official app website: <https://ladigitale.dev/>

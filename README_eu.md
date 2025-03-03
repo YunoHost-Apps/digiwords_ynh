@@ -20,9 +20,15 @@ EZ editatu eskuz.
 
 Create interactive wordclouds
 
+
 **Paketatutako bertsioa:** 0.6.3~ynh1
 
 **Demoa:** <https://ladigitale.dev/digiwords/#/>
+
+## Pantaila-argazkiak
+
+![Digiwords(r)en pantaila-argazkia](./doc/screenshots/screenshot.jpg)
+
 ## Dokumentazioa eta baliabideak
 
 - Aplikazioaren webgune ofiziala: <https://ladigitale.dev/>

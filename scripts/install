@@ -1,5 +1,9 @@
 #!/bin/bash
 
+#=================================================
+# IMPORT GENERIC HELPERS
+#=================================================
+
 source _common.sh
 source /usr/share/yunohost/helpers
 
@@ -8,16 +12,48 @@ source /usr/share/yunohost/helpers
 #=================================================
 ynh_script_progression "Setting up source files..."
 
+# Download, check integrity, uncompress and patch the source from manifest.toml
 ynh_setup_source --dest_dir="$install_dir"
 
 #=================================================
-# NGINX CONFIGURATION
+# INSTALL DEPENDENCIES
 #=================================================
-ynh_script_progression "Configuring NGINX web server..."
+ynh_script_progression "Installing nodejs..."
 
+ynh_nodejs_install
+
+#=================================================
+# APP INITIAL CONFIGURATION
+#=================================================
+ynh_script_progression "Adding $app's configuration files..."
+
+ynh_config_add --template=".env.production" --destination="$install_dir/.env.production"
+
+chmod 400 "$install_dir/.env.production"
+chown "$app:$app" "$install_dir/.env.production"
+
+#=================================================
+# SYSTEM CONFIGURATION
+#=================================================
+ynh_script_progression "Adding system configurations related to $app..."
+
+# Create a PHP-FPM config (with conf/extra_php-fpm.conf being appended to it)
+ynh_config_add_phpfpm
+
+# Create a dedicated NGINX config using the conf/nginx.conf template
 ynh_config_add_nginx
 
-ynh_config_add_phpfpm
+#=================================================
+# BUILD APP
+#=================================================
+ynh_script_progression "Building $app..."
+
+pushd "$install_dir"
+	ynh_hide_warnings ynh_exec_as_app npm install
+	ynh_hide_warnings ynh_exec_as_app npm run build
+popd
+
+chown -R $app:www-data "$install_dir/dist"
 
 #=================================================
 # END OF SCRIPT

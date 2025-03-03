@@ -1,4 +1,4 @@
- ---
+---
 name: Bug report
 about: When creating a bug report, please use the following template to provide all the relevant information and help debugging efficiently.
 

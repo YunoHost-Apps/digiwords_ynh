@@ -20,9 +20,15 @@ Hij mag NIET handmatig aangepast worden.
 
 Create interactive wordclouds
 
+
 **Geleverde versie:** 0.6.3~ynh1
 
 **Demo:** <https://ladigitale.dev/digiwords/#/>
+
+## Schermafdrukken
+
+![Schermafdrukken van Digiwords](./doc/screenshots/screenshot.jpg)
+
 ## Documentatie en bronnen
 
 - Officiele website van de app: <https://ladigitale.dev/>
