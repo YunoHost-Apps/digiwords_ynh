@@ -20,9 +20,15 @@
 
 Create interactive wordclouds
 
-**分发版本：** 0.6.2~ynh1
+
+**分发版本：** 0.6.3~ynh1
 
 **演示：** <https://ladigitale.dev/digiwords/#/>
+
+## 截图
+
+![Digiwords 的截图](./doc/screenshots/screenshot.jpg)
+
 ## 文档与资源
 
 - 官方应用网站： <https://ladigitale.dev/>

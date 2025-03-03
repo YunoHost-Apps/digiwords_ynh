@@ -20,9 +20,15 @@ Il NE doit PAS être modifié à la main.
 
 Digiwords est une application en ligne simple pour créer des nuages de mots.
 
-**Version incluse :** 0.6.2~ynh1
+
+**Version incluse :** 0.6.3~ynh1
 
 **Démo :** <https://ladigitale.dev/digiwords/#/>
+
+## Captures d’écran
+
+![Capture d’écran de Digiwords](./doc/screenshots/screenshot.jpg)
+
 ## Documentations et ressources
 
 - Site officiel de l’app : <https://ladigitale.dev/>
