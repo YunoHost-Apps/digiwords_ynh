@@ -1,3 +1,5 @@
+#:schema https://raw.githubusercontent.com/YunoHost/apps/master/schemas/manifest.v2.schema.json
+
 packaging_format = 2
 
 id = "digiwords"
@@ -5,7 +7,7 @@ name = "Digiwords"
 description.en = "Create interactive wordclouds"
 description.fr = "Créer des nuages de mots interactifs"
 
-version = "0.6.2~ynh1"
+version = "0.6.3~ynh1"
 
 maintainers = ["Pierre-Amiel Giraud"]
 
@@ -16,7 +18,6 @@ demo = "https://ladigitale.dev/digiwords/#/"
 admindoc = "https://codeberg.org/ladigitale/digiwords/src/branch/master/README.md"
 userdoc = "https://ladigitale.dev/blog/digiwords-pour-creer-des-nuages-de-mots"
 code = "https://codeberg.org/ladigitale/digiwords"
-
 
 [integration]
 yunohost = ">= 11.2.29"
@@ -45,10 +46,10 @@ ram.runtime = "50M"
     default = "visitors"
 
 [resources]
-        [resources.sources.main]
-        url = "https://codeberg.org/ladigitale/digiwords/archive/0.6.2.tar.gz"
-        sha256 = "e90b15b2ed051fdf8d3db245001c51a84aa36646466e1c991de8b0da2a0cea9f"
-        autoupdate.strategy = "latest_forgejo_release"
+    [resources.sources.main]
+    url = "https://codeberg.org/ladigitale/digiwords/archive/0.6.3.tar.gz"
+    sha256 = "46d8461ca66fa68bbef807ff42ec7dd4100a420617016ba4cacf61654bf1ffb1"
+    autoupdate.strategy = "latest_forgejo_release"
 
     [resources.system_user]
 

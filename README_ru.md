@@ -20,9 +20,15 @@
 
 Create interactive wordclouds
 
-**Поставляемая версия:** 0.6.2~ynh1
+
+**Поставляемая версия:** 0.6.3~ynh1
 
 **Демо-версия:** <https://ladigitale.dev/digiwords/#/>
+
+## Снимки экрана
+
+![Снимок экрана Digiwords](./doc/screenshots/screenshot.jpg)
+
 ## Документация и ресурсы
 
 - Официальный веб-сайт приложения: <https://ladigitale.dev/>
