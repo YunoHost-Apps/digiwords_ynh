@@ -21,7 +21,7 @@ EZ editatu eskuz.
 Create interactive wordclouds
 
 
-**Paketatutako bertsioa:** 0.6.3~ynh1
+**Paketatutako bertsioa:** 0.6.4~ynh1
 
 **Demoa:** <https://ladigitale.dev/digiwords/#/>
 
