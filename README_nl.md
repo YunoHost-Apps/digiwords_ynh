@@ -21,7 +21,7 @@ Hij mag NIET handmatig aangepast worden.
 Create interactive wordclouds
 
 
-**Geleverde versie:** 0.6.3~ynh1
+**Geleverde versie:** 0.6.4~ynh1
 
 **Demo:** <https://ladigitale.dev/digiwords/#/>
 
