@@ -21,7 +21,7 @@ Ini TIDAK boleh diedit dengan tangan.
 Create interactive wordclouds
 
 
-**Versi terkirim:** 0.6.3~ynh1
+**Versi terkirim:** 0.6.4~ynh1
 
 **Demo:** <https://ladigitale.dev/digiwords/#/>
 

@@ -21,7 +21,7 @@
 Create interactive wordclouds
 
 
-**分发版本：** 0.6.3~ynh1
+**分发版本：** 0.6.4~ynh1
 
 **演示：** <https://ladigitale.dev/digiwords/#/>
 

@@ -21,7 +21,7 @@
 Create interactive wordclouds
 
 
-**Поставляемая версия:** 0.6.3~ynh1
+**Поставляемая версия:** 0.6.4~ynh1
 
 **Демо-версия:** <https://ladigitale.dev/digiwords/#/>
 
