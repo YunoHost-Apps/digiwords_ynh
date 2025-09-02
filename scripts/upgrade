@@ -4,7 +4,7 @@
 # IMPORT GENERIC HELPERS
 #=================================================
 
-source _common.sh
+
 source /usr/share/yunohost/helpers
 
 #=================================================
@@ -23,9 +23,9 @@ ynh_setup_source --dest_dir="$install_dir" --full_replace --keep="dist/inc/digiw
 #=================================================
 # INSTALL DEPENDENCIES
 #=================================================
-ynh_script_progression "Installing nodejs..."
+#REMOVEME? ynh_script_progression "Installing nodejs..."
 
-ynh_nodejs_install
+#REMOVEME? ynh_nodejs_install
 
 #=================================================
 # UPDATE A CONFIG FILE

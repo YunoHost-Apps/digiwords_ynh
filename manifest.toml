@@ -20,7 +20,7 @@ userdoc = "https://ladigitale.dev/blog/digiwords-pour-creer-des-nuages-de-mots"
 code = "https://codeberg.org/ladigitale/digiwords"
 
 [integration]
-yunohost = ">= 11.2.29"
+yunohost = ">= 12.1.17"
 helpers_version = "2.1"
 architectures = "all"
 multi_instance = true
@@ -61,3 +61,6 @@ ram.runtime = "50M"
 
     [resources.apt]
     packages = "php8.2-sqlite3"
+
+    [resources.nodejs]
+    version = "20"
