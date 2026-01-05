@@ -4,13 +4,7 @@
 # IMPORT GENERIC HELPERS
 #=================================================
 
-source _common.sh
 source /usr/share/yunohost/helpers
-
-#=================================================
-# ENSURE DOWNWARD COMPATIBILITY
-#=================================================
-ynh_script_progression "Ensuring downward compatibility..."
 
 #=================================================
 # DOWNLOAD, CHECK AND UNPACK SOURCE
@@ -21,21 +15,11 @@ ynh_script_progression "Upgrading source files..."
 ynh_setup_source --dest_dir="$install_dir" --full_replace --keep="dist/inc/digiwords.db"
 
 #=================================================
-# INSTALL DEPENDENCIES
-#=================================================
-ynh_script_progression "Installing nodejs..."
-
-ynh_nodejs_install
-
-#=================================================
 # UPDATE A CONFIG FILE
 #=================================================
 ynh_script_progression "Updating $app's configuration files..."
 
 ynh_config_add --template=".env.production" --destination="$install_dir/.env.production"
-
-chmod 400 "$install_dir/.env.production"
-chown "$app:$app" "$install_dir/.env.production"
 
 #=================================================
 # REAPPLY SYSTEM CONFIGURATIONS

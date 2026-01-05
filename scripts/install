@@ -4,7 +4,6 @@
 # IMPORT GENERIC HELPERS
 #=================================================
 
-source _common.sh
 source /usr/share/yunohost/helpers
 
 #=================================================
@@ -16,21 +15,11 @@ ynh_script_progression "Setting up source files..."
 ynh_setup_source --dest_dir="$install_dir"
 
 #=================================================
-# INSTALL DEPENDENCIES
-#=================================================
-ynh_script_progression "Installing nodejs..."
-
-ynh_nodejs_install
-
-#=================================================
 # APP INITIAL CONFIGURATION
 #=================================================
 ynh_script_progression "Adding $app's configuration files..."
 
 ynh_config_add --template=".env.production" --destination="$install_dir/.env.production"
-
-chmod 400 "$install_dir/.env.production"
-chown "$app:$app" "$install_dir/.env.production"
 
 #=================================================
 # SYSTEM CONFIGURATION

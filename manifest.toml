@@ -7,7 +7,7 @@ name = "Digiwords"
 description.en = "Create interactive wordclouds"
 description.fr = "Créer des nuages de mots interactifs"
 
-version = "0.6.4~ynh1"
+version = "0.6.5~ynh1"
 
 maintainers = ["Pierre-Amiel Giraud"]
 
@@ -26,7 +26,6 @@ architectures = "all"
 multi_instance = true
 
 ldap = false
-
 sso = false
 
 disk = "50M"
@@ -47,8 +46,8 @@ ram.runtime = "50M"
 
 [resources]
     [resources.sources.main]
-    url = "https://codeberg.org/ladigitale/digiwords/archive/0.6.4.tar.gz"
-    sha256 = "79f8fc3db5cf257eaa392573be70d823fa83f1216e45a7dedfabb2a15a0c74d1"
+    url = "https://codeberg.org/ladigitale/digiwords/archive/0.6.5.tar.gz"
+    sha256 = "9e8ea6a9399b5ca98c1c9415752bfbc283985c73609063ca8f176a582163f0ca"
     autoupdate.strategy = "latest_forgejo_release"
 
     [resources.system_user]
@@ -60,4 +59,7 @@ ram.runtime = "50M"
     main.url = "/"
 
     [resources.apt]
-    packages = "php8.2-sqlite3"
+    packages = "php8.4-fpm"
+
+    [resources.nodejs]
+    version = "22"
