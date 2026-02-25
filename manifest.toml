@@ -7,7 +7,7 @@ name = "Digiwords"
 description.en = "Create interactive wordclouds"
 description.fr = "Créer des nuages de mots interactifs"
 
-version = "0.6.5~ynh1"
+version = "0.6.6~ynh1"
 
 maintainers = ["Pierre-Amiel Giraud"]
 
@@ -46,8 +46,8 @@ ram.runtime = "50M"
 
 [resources]
     [resources.sources.main]
-    url = "https://codeberg.org/ladigitale/digiwords/archive/0.6.5.tar.gz"
-    sha256 = "9e8ea6a9399b5ca98c1c9415752bfbc283985c73609063ca8f176a582163f0ca"
+    url = "https://codeberg.org/ladigitale/digiwords/archive/0.6.6.tar.gz"
+    sha256 = "cb04a932628a5d2fa9a1090240512e2d4794a45bb58fa27a69b3e96c7dd4c788"
     autoupdate.strategy = "latest_forgejo_release"
 
     [resources.system_user]
