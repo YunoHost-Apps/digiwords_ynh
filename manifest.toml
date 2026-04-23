@@ -58,8 +58,5 @@ ram.runtime = "50M"
     [resources.permissions]
     main.url = "/"
 
-    [resources.apt]
-    packages = "php8.4-fpm"
-
     [resources.nodejs]
     version = "22"
