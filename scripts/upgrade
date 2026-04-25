@@ -30,7 +30,7 @@ ynh_config_add_phpfpm
 
 ynh_config_add_nginx
 
-chown -R $app:www-data "$install_dir/dist"
+chown -R $app:www-data "$install_dir"
 
 #=================================================
 # END OF SCRIPT
