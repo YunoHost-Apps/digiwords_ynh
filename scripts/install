@@ -36,10 +36,12 @@ ynh_config_add_nginx
 # BUILD APP
 #=================================================
 ynh_script_progression "Building $app..."
-
 pushd "$install_dir"
+
+## correctif de la liste des navigateurs pour compatibilité minimale
+	ynh_replace_string --match_string="target: ['es2020', 'edge88', 'firefox78', 'chrome87', 'safari12']," --replace_string=target: ['es2020']," --target_file=vite.config.mjs
+
 	ynh_hide_warnings ynh_exec_as_app npm install
-	ynh_hide_warnings ynh_exec_as_app npm install --save-exact --save-dev esbuild
 	ynh_hide_warnings ynh_exec_as_app npm run build
 popd
 
