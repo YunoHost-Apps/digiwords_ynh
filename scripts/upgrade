@@ -12,7 +12,7 @@ source /usr/share/yunohost/helpers
 ynh_script_progression "Upgrading source files..."
 
 # Download, check integrity, uncompress and patch the source from manifest.toml
-ynh_setup_source --dest_dir="$install_dir" --full_replace --keep="dist/inc/digiwords.db"
+ynh_setup_source --dest_dir="$install_dir" --full_replace --keep="inc/digiwords.db"
 
 #=================================================
 # UPDATE A CONFIG FILE
@@ -30,17 +30,7 @@ ynh_config_add_phpfpm
 
 ynh_config_add_nginx
 
-#=================================================
-# BUILD APP
-#=================================================
-ynh_script_progression "Building $app..."
-
-pushd "$install_dir"
-	ynh_hide_warnings ynh_exec_as_app npm install
-	ynh_hide_warnings ynh_exec_as_app npm run build
-popd
-
-chown -R $app:www-data "$install_dir/dist"
+chown -R $app:www-data "$install_dir"
 
 #=================================================
 # END OF SCRIPT

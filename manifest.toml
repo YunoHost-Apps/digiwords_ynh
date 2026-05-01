@@ -46,8 +46,8 @@ ram.runtime = "50M"
 
 [resources]
     [resources.sources.main]
-    url = "https://codeberg.org/ladigitale/digiwords/archive/0.6.5.tar.gz"
-    sha256 = "9e8ea6a9399b5ca98c1c9415752bfbc283985c73609063ca8f176a582163f0ca"
+    url = "https://codeberg.org/ladigitale/digiwords/releases/download/0.6.7/digiwords-v0.6.7.zip"
+    sha256 = "0cd394ac12c37b9d1112f9b53f051724a8ef5ad389494d33bbf25c8dfe8d828a"
     autoupdate.strategy = "latest_forgejo_release"
 
     [resources.system_user]
@@ -60,6 +60,3 @@ ram.runtime = "50M"
 
     [resources.apt]
     packages = "php8.4-fpm"
-
-    [resources.nodejs]
-    version = "22"
