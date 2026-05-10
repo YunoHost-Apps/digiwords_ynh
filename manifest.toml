@@ -7,7 +7,7 @@ name = "Digiwords"
 description.en = "Create interactive wordclouds"
 description.fr = "Créer des nuages de mots interactifs"
 
-version = "0.6.5~ynh1"
+version = "0.6.7~ynh1"
 
 maintainers = ["Pierre-Amiel Giraud"]
 
