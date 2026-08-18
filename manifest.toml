@@ -49,6 +49,7 @@ ram.runtime = "50M"
     url = "https://codeberg.org/ladigitale/digiwords/releases/download/0.6.7/digiwords-v0.6.7.zip"
     sha256 = "0cd394ac12c37b9d1112f9b53f051724a8ef5ad389494d33bbf25c8dfe8d828a"
     autoupdate.strategy = "latest_forgejo_release"
+    autoupdate.asset = "^digiwords-v.*\\.zip$"
 
     [resources.system_user]
 
